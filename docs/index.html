@@ -14,7 +14,7 @@
     function setUserName() {
       let myName = prompt('あなたの名前を入力してください。');
       localStorage.setItem('name', myName);
-      myHeading.textContent = 'Mozilla はすばらしいよ、' + myName;
+      myHeading.textContent = 'Mozilla はすばらしよ、' + myName;
     }
     if(!localStorage.getItem('name')) {
       setUserName();
