@@ -1,0 +1,109 @@
+﻿@charset "UTF-8";
+
+/* 全体 */
+body {
+background-color: rgb(141,85,29);
+font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","Osaka",sans-serif;
+font-size: 90%;
+}
+
+/* ページ全体 */
+#page {
+width: 918px;
+margin: 0 auto 0 auto;
+background-color: rgb(255,255,255);
+}
+
+/* タイトル部分 */
+#site_title {
+width: 898px;
+margin: 0 auto 10px auto;
+}
+
+#site_title img {
+border: none;
+}
+
+#header {
+width: 898px;
+margin: 0px auto 10px auto;
+}
+
+/* 中央部分 */
+#center {
+margin: 0px 9px 10px 9px;
+width: 728px;
+border-left: 1px rgb(191,191,191) solid;
+float: right;
+}
+
+#center h1 {
+margin: 0px 4px 10px 4px;
+padding: 6px 4px;
+color: rgb(0,112,192);
+background-color: rgb(185,205,229);
+border: 1px rgb(149,179,215) solid;
+font-size: 130%;
+}
+
+.maincontents {
+margin: 0px 0px 10px 0px;
+}
+
+.maincontents h2 {
+margin: 0px 4px 10px 4px;
+padding: 6px 4px;
+background-image: url(../image/image.png);
+font-size: 130%;
+}
+
+p {
+margin: 6px 4px;
+}
+
+/* 左サイドバー */
+#left {
+width: 160px;
+margin: 0px 0px 0px 10px;
+}
+
+.link {
+margin: 0px 0px 10px 0px;
+border: 1px rgb(0,176,80) solid;
+background-color: rgb(235,241,222);
+}
+
+.link h2 {
+margin: 0px;
+padding: 6px 4px 6px 4px;
+background-color: rgb(146,208,80);
+font-size: 130%;
+}
+
+.link ul {
+margin: 8px 0px;
+padding: 0px 4px;
+}
+
+.link li {
+padding: 2px 0px;
+list-style-type: none;
+}
+
+.advertisement img {
+margin: 0px 0px 10px 0px;
+border: none;
+}
+
+/* フッター */
+#footer {
+padding: 10px 0px 10px 0px;
+border-top: 1px rgb(0,176,240) solid;
+text-align: center;
+}
+
+/* 回り込み解除 */
+.clear {
+clear:both;
+}
+
